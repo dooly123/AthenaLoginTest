@@ -41,6 +41,22 @@
       "requirement": "optional"
     },
     {
+      "name": "/actions/default/in/MovementVector",
+      "type": "vector2"
+    },
+    {
+      "name": "/actions/default/in/Run",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/Jump",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/RotateVector",
+      "type": "vector2"
+    },
+    {
       "name": "/actions/default/out/Haptic",
       "type": "vibration"
     },
@@ -53,7 +69,7 @@
   "action_sets": [
     {
       "name": "/actions/default",
-      "usage": "leftright"
+      "usage": "single"
     },
     {
       "name": "/actions/mixedreality",
